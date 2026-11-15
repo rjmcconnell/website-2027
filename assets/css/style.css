@@ -5,6 +5,7 @@ body {
 	font-family: 'Metra', sans-serif;
 	overflow-y: scroll;
 	padding: 1rem;
+	line-height: 1.25;
 }
 main {
 	display: grid;
@@ -17,4 +18,5 @@ main {
 img {
 	display: block;
 	width: 100%;
+	margin: 0 0 1rem 0;
 }
