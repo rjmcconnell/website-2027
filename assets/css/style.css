@@ -13,3 +13,7 @@ main {
 .project-item-2x {
 	grid-column-end: span 2;
 }
+img {
+	display: block;
+	width: 100%;
+}
