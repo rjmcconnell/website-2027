@@ -28,7 +28,6 @@ header {
 }
 main {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 1rem;
 	margin: 0 0 8rem 0;
 	padding: 1rem;
@@ -41,7 +40,7 @@ main {
 	text-box-trim: trim-both;
 }
 .intro span {
-	padding: 0 1rem;
+	padding: 0 0.5rem;
 }
 .project-item {
 	margin: 0 0 2rem 0;
@@ -85,15 +84,32 @@ a {
 }
 a:hover {
 	color: rgba(0,0,0,0.3);
+	transition: 0.25s ease-in-out;
 }
 
 
 /*XS screen sizes*/
 @media (max-width: 767px) {
-
+	header {
+		margin: 6rem 0 4rem 0;
+	}
+	.intro {
+		font-size: 2rem;
+		letter-spacing: -0.5px;
+	}
 }
 /*S screen sizes*/
 @media (min-width: 768px) {
+	header {
+		margin: 6rem 0 4rem 0;
+	}
+	main {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.intro {
+		font-size: 3.5rem;
+		letter-spacing: -1px;
+	}
 }
 
 /*M screen sizes*/
@@ -104,14 +120,6 @@ a:hover {
 	html {
 		font-size: 16px;
 	}
-	header {
-		margin: 6rem 0;
-	}
-	.intro {
-		font-size: 3.5rem;
-		letter-spacing: -1px;
-		max-width: 85vw;
-	}
 }
 /*XL screen sizes*/
 @media (min-width: 1500px) {
@@ -119,11 +127,7 @@ a:hover {
 		font-size: 20px;
 	}
 	header {
-		margin: 8rem 0;
-	}
-	.intro {
-		font-size: 4rem;
-		letter-spacing: -1px;
+		margin: 10rem 0 8rem 0;
 	}
 }
 /*XXL screen sizes*/
@@ -132,7 +136,7 @@ a:hover {
 		margin: 12rem 0;
 	}
 	.intro {
-		font-size: 6rem;
-		max-width: 80vw;
+		font-size: 5rem;
+		max-width: 90vw;
 	}
 }
