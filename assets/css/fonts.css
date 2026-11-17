@@ -1,4 +1,19 @@
 @font-face {
+  font-family: "Halvar";
+  src: url("../fonts/Halvar-Mittelschrift-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Halvar";
+  src: url("../fonts/Halvar-Mittelschrift-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: "Metra";
   src: url("../fonts/HLC-Metra-Regular.woff2") format("woff");
   font-weight: 400;
