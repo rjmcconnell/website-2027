@@ -141,7 +141,7 @@ dd {
 /*XS screen sizes*/
 @media (max-width: 767px) {
 	header {
-		margin: 6rem 0 4rem 0;
+		margin: 6rem 0 2rem 0;
 	}
 	.project-images {
 		margin: 0 0 4rem 0;
