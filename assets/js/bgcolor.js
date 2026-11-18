@@ -3,8 +3,6 @@ var hours = now.getHours();
 
 const nav = document.querySelector("nav");
 
-var hours = 11;
-
 if (hours == 0) {
 	document.body.style.backgroundColor = "#DFDFFF";
 	nav.style.backgroundColor = "rgba(223,223,255,0.75)";
